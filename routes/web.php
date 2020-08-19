@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/sendpriorityjobs', function () {
-
     for ($i = 0; $i <=50; $i++) {
 
         $queue = 'low';
